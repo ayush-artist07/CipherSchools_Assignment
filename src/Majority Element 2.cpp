@@ -24,12 +24,16 @@ We are given a read only array of n integers. Find any element that appears more
  	count2++;
  	
  	//if count1=0 assign curr element to maj1
- 	if(count1==0)
+ 	if(count1==0){
  	maj1=arr[i];
+	count1++;
+	}
 	  	
  	//else if count2=0 assign curr element to maj2
- 	else if(count2==0)
+ 	else if(count2==0){
  	maj2=arr[i];
+	count2++;
+	}
  	
  	else{
  		count1--;
