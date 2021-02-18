@@ -11,11 +11,6 @@ In the maze matrix, 0 means the block is a dead end and 1 means the block can be
 using namespace std;
 
 
-void printMatrix(int n)
-{
-	
-}
-
 bool isSafe(int mat[5][5],int x,int y,int n){
 	
 	//All conditions where rat can go i.e  matrix within the limits and value at pos is 1
