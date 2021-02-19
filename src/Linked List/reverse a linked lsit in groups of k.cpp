@@ -48,8 +48,7 @@ class LinkedList
         return NULL;
         
     	Node* current = head;
-    	Node* nxt = NULL;
-    	Node* prev = NULL;
+    	Node* nxt,*prev= NULL;
     	int count = 0;
  
     //reverse first k nodes of the linked list 
@@ -84,14 +83,24 @@ class LinkedList
 	
 };
 
+void Display(Node *head)
+	{
+		Node *p=head;
+		while(p)
+		{
+			cout<<p->data<<" ";
+			p=p->next;
+		}
+		cout<<endl;
+	}
 int main()
 {
-	int arr[]={1,2,3,4,5};
+	int arr[]={5,4,3,2,1};
 	LinkedList l(arr,5);
 	
 	l.Display();
-	l.ReverseK(l.head,2);
-	l.Display();
+	Node *head=l.ReverseK(l.head,2);
+	Display(head);
 	
 	return 0;
 	
