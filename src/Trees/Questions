@@ -1,1 +1,28 @@
+1. Implement traversals - Inorder, Preorder, PostOrder, LevelOrder (Code All 4 traversals)
+
+2. Print Left/Right/Bottom/Top view of the Binary Tree (Code All 4 views)
+
+3. Construct tree from inorder and preorder traversal (Easy to Medium)
+
+4. LCA of Binary Tree 
+
+5. Diameter of Binary Tree
+
+6. Max Sum path from the leaf to leaf.
+
+7. Connect Nodes on the same level (Hard)
+
+8. Convert each level in Binary Tree to Doubly LinkedList (Hard)
+
+9. Print root to leaf path in Binary tree (Easy)
+
+10. Print all nodes at K distance. (Hard)
+
+11. Find Largest Subtree sum in Binary Tree (Easy to Medium)
+
+12.  Construct tree from inorder and postorder traversal (Easy to Medium)
+
+13. Check if a binary tree is a BST or not
+
+14. Check if 2 trees are mirror of each other
 
